@@ -1,0 +1,115 @@
+<GenelBilgiler>
+
+1.Elektronik İmza Nedir ve Neden Kullanılır?
+
+<!-- 
+-Elektronik İmza (e-İmza), dijital dosyaların 
+güvenli ve doğrulanabilir olduğunu kanıtlayan bir 
+şifreleme yöntemidir.
+
+-Bir e-fatura, e-arşiv veya diğer resmi belgeler, 
+imzalanmadan yasal geçerliliğe sahip olamaz.
+
+📌 Elektronik imzanın sağladığı avantajlar:
+ Kimlik doğrulama: Belgenin gerçekten kim tarafından oluşturulduğunu kanıtlar.
+ Bütünlük: Dosyanın değiştirilmediğini ve orijinal olduğunu gösterir.
+ İnkâr edilemezlik: İmzalayan kişi belgeyi imzaladığını inkâr edemez.
+ Hukuki geçerlilik: GİB, e-fatura ve resmi belgelerde imzayı zorunlu tutar.
+
+-->
+
+2.Elektronik İmza Türleri
+<!-- 
+📌 Elektronik imza türleri farklı standartlara ayrılır. 
+Bizim için en önemli olan "XAdES" formatıdır.
+
+
+XAdES-BES	XML dosyaları (UBL-TR, e-Fatura).	
+XML imzalama için en yaygın kullanılan formattır.
+
+CAdES	PDF ve diğer dokümanlar.Daha çok PDF veya diğer 
+belge formatları için uygundur.
+
+PAdES	PDF dosyaları.Elektronik imzalı PDF'ler için kullanılır.
+
+-->
+3. Elektronik İmza Nasil Çalişir?
+
+<!-- 
+ Elektronik imza süreci 3 temel adımdan oluşur:
+
+ 1. Özel Anahtar (Private Key) Kullanarak Belgeyi Şifreleme
+Özel anahtar, sadece sahibinin erişebildiği bir şifreleme aracıdır.
+XML belgesi, bu anahtar ile imzalanır.
+ 2. İmzalanan Belgeye Sertifika (X.509) Ekleme
+Sertifika, belgenin kim tarafından imzalandığını gösterir.
+Sertifikalar, devlet onaylı sertifika sağlayıcılarından alınabilir (TÜBİTAK, E-GÜVEN, Kamu SM gibi).
+ 3. İmzayı Doğrulama
+XML belgesi, imzalandıktan sonra başka biri tarafından değiştirilirse imza geçersiz olur.
+Doğrulama işlemi, belgenin orijinal olduğunu kanıtlar.
+
+📌 Bu süreç, "Asimetrik Şifreleme" yöntemi ile yapılır ve çok güvenlidir.
+
+-->
+
+5. Türkiyede Elektronik İmza ve Yasal Zorunluluklar
+
+<!-- 
+Türkiye’de e-fatura, e-arşiv ve diğer e-belge sistemlerinde 
+elektronik imza kullanımı zorunludur.
+
+ Gelir İdaresi Başkanlığı (GİB), UBL-TR formatında imzalanmış
+  XML belgeleri kabul eder.
+
+Türkiye'de e-İmza sağlayan yetkili kurumlar:
+✅ TÜBİTAK (Kamu SM)
+✅ E-GÜVEN
+✅ TürkTrust
+✅ E-TUĞRA
+
+📌 Eğer şirketinin e-fatura sistemine elektronik imza entegre 
+etmesi gerekiyorsa, bu kurumlarla çalışmak gerekebilir.
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</GenelBilgiler>
